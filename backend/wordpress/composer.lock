@@ -1017,16 +1017,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.6.1",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "fefb2d57ffbca6c4f92f3ba80e8c2d5b13769e1d"
+                "reference": "43a86e1a59ef044c6dd5870cb60534474872a33b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/fefb2d57ffbca6c4f92f3ba80e8c2d5b13769e1d",
-                "reference": "fefb2d57ffbca6c4f92f3ba80e8c2d5b13769e1d",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/43a86e1a59ef044c6dd5870cb60534474872a33b",
+                "reference": "43a86e1a59ef044c6dd5870cb60534474872a33b",
                 "shasum": ""
             },
             "require": {
@@ -1092,9 +1092,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.6.1"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.6.2"
             },
-            "time": "2021-07-30T19:36:20+00:00"
+            "time": "2021-08-04T17:16:54+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-jwt-authentication",

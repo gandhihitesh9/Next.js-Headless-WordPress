@@ -1,7 +1,7 @@
 import '../src/styles/index.scss'
 import {ApolloProvider} from "@apollo/client";
 import client from "../src/apollo/client";
-
+// video 6 completed.
 function MyApp({ Component, pageProps }) {
   return (
     <ApolloProvider client={client}>
