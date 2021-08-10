@@ -1,5 +1,5 @@
 const MenuFragment = `
-    Fragment MenuFragment on MenuItem{
+    fragment MenuFragment on MenuItem{
         id
         path
         title
