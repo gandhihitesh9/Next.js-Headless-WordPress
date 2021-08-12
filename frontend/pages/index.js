@@ -1,14 +1,12 @@
 import client from '../src/apollo/client';
+import Layout from '../src/components/Layout';
 import { GET_MENUS } from '../src/queries/get-menus';
 
-export default function Home({menus}) {
-  console.log(menus);
+export default function Home({data}) {
   return (
-    <div>
-      <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
-        Back End Developer
-      </h2>
-    </div>
+    <Layout data={data}>
+
+    </Layout>
   )
 }
 
@@ -19,9 +17,11 @@ export async function getStaticProps(context) {
   
   return {
     props: {
-      menus: {
-        headerMenus: data?.headerMenus?.edges,
-        footerMenus: data?.footerMenus?.edges
+      data:{
+        menus: {
+          headerMenus: data?.headerMenus?.edges,
+          footerMenus: data?.footerMenus?.edges
+        }
       }
     }, // will be passed to the page component as props
   }
